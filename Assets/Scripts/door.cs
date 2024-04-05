@@ -30,7 +30,7 @@ public class door : MonoBehaviour
     {
         if (interactable == true)
         {
-            if (Input.GetKeyDown(KeyCode.E))
+            if (Input.GetKeyDown(KeyCode.F))
             {
                 toggle = !toggle;
                 if (toggle == true)
