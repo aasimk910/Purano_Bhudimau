@@ -9,7 +9,7 @@ public class lightSwitch : MonoBehaviour
     public Renderer bulb; 
     public Material offlight, onlight;
     public AudioSource lightSwitchSound;
-    public Animator switchAnim;
+   
 
     void OnTriggerStay(Collider other)
     {
@@ -35,8 +35,7 @@ public class lightSwitch : MonoBehaviour
             {
                 toggle = !toggle;
                 //lightSwitchSound.Play();
-                switchAnim.ResetTrigger("press"); 
-                switchAnim.SetTrigger("press");
+               
             }
         }
         if(toggle == false)
