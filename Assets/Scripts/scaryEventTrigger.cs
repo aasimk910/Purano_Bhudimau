@@ -3,6 +3,7 @@ using UnityEngine;
 public class scaryEventTrigger : MonoBehaviour
 {
     public GameObject scare;
+    public GameObject scare2;
     public AudioSource scareSound;
     public Collider collision;
 
